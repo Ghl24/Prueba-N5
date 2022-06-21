@@ -1,0 +1,14 @@
+.character {
+  display: grid;
+  margin: 3rem 2.5rem;
+  justify-content: center;
+  flex-direction:row;
+  align-items: center;
+  &_info{
+    font-size: 12px;
+    font-family: "Big Caslon", serif;
+  }
+  &_img {
+    width: 50%;
+  }
+}

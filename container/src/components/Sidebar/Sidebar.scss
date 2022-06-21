@@ -1,0 +1,30 @@
+.sidebar-wrapper {
+  display: flex;
+  border: 8px outset silver;
+
+  border-radius: 26px;
+  justify-content: space-between;
+  padding: 1rem;
+  background: transparent;
+  align-items: center;
+  &_about{
+    font-size: 1rem;
+  }
+  &_microfront{
+    border: dashed 1px gray;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    &--title{
+      font-size: 1.5rem;
+    }
+  }
+  .menu-text {
+    size: 8px;
+    color: white;
+    margin-inline: 1.5rem;
+  }
+}
+
+
