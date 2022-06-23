@@ -9,9 +9,9 @@ export const CardFront = (props: any) => {
                 style={{
                     display: 'flex',
                     position: 'absolute',
-                    bottom: 10,
+                    bottom: 0,
                     width: '100%',
-                    background: 'transparent',
+                    background: 'black',
                     color: 'white',
                     borderColor: 'white',
                     borderLeft: 0,

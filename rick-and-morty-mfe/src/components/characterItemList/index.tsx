@@ -10,7 +10,7 @@ export const Card = ({ characterinfo }: any) => {
     const { image, ...info } = characterinfo;
     console.log(info)
     return (
-        <CardStyle className={`card__container character`}>
+        <CardStyle className={`card__container character-rick`}>
             {!hover ? (
                 <CardFront className="card__container-img" hover={hover} setHover={setHover} characterimage={image} />
             ) : (

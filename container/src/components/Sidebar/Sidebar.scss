@@ -1,30 +1,34 @@
 .sidebar-wrapper {
-  display: flex;
-  border: 8px outset silver;
-
-  border-radius: 26px;
-  justify-content: space-between;
-  padding: 1rem;
-  background: transparent;
-  align-items: center;
-  &_about{
-    font-size: 1rem;
-  }
-  &_microfront{
-    border: dashed 1px gray;
-    background-color: black;
-    color: white;
     display: flex;
+    justify-content: space-between;
+    background: black;
     align-items: center;
-    &--title{
-      font-size: 1.5rem;
+    flex-direction: column;
+    &--title {
+        font-size: 1.5rem;
+        color: white;
     }
-  }
-  .menu-text {
-    size: 8px;
-    color: white;
-    margin-inline: 1.5rem;
-  }
+    &_microfront {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+        &--about {
+            font-size: 1rem;
+        }
+        &--links {
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            width: 80%;
+        }
+    }
+    .menu-text {
+        size: 8px;
+        color: white;
+        margin-inline: 1.5rem;
+    }
 }
-
-

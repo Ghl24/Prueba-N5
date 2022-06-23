@@ -5,10 +5,13 @@ export const CardStyle = styled.div`
     border-radius: 1rem;
     background-size: cover;
     background-position: center;
-    padding: 10px;
+    margin: 10px;
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.349);
+    width: 15rem;
+    height: 15rem;
     transform: ${(props: any) => (props.hover ? 'rotateY(180deg)' : 'rotateY(0deg)')};
     .card__container {
+        position: relative;
         &-img {
             width: 100%;
             height: 100%;
@@ -22,7 +25,7 @@ export const CardStyle = styled.div`
         background-size: cover;
         background-position: center;
         box-shadow: 0 20px 25px rgba(0, 0, 0, 0.349);
-        overflow-y: scroll;
+        position: relative;
         &-list {
             font-size: 15px;
             color: red;
@@ -37,11 +40,14 @@ export const CardStyle = styled.div`
             align-items: center;
             width: 100%;
             color: white;
-            background-color: Transparent;
+            background-color: black;
             background-repeat: no-repeat;
             border: none;
             cursor: pointer;
             overflow: hidden;
+            position: absolute;
+            bottom: 0px;
+            height: 13%;
         }
     }
 `;
